@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{int arr[5];
+cout<<"enter any five elements\n.......................\n";
+for(int i=0;i<5;i++)
+{cin>>arr[i];
+}
+int *p;
+p=arr;
+cout<<"you entered\n\a";
+for(int i=0;i<5;i++)
+{cout<<*p<<"\n";
+p++;
+} return 0;
+	
+}
